@@ -18,29 +18,43 @@
 
 // ## 02 - Map Names
 
-const longNames = [{   firstName: "Jane",lastName: "Doe"},{firstName: "John",lastName: "Smith"} ]
+// const longNames = [{   firstName: "Jane",lastName: "Doe"},{firstName: "John",lastName: "Smith"} ]
 
-const shortNames = longNames.map((longName) =>{
+// const shortNames = longNames.map((longName) =>{
 
-    return {
+//     return {
         
-         names: longName.firstName + longName.lastName
+//          names:`${longName.firstName}  ${longName.lastName}` 
         
        
 
-    }
+//     }
  
     
-})
+// })
 
-   console.log(shortNames)
+//    console.log(shortNames)
 
 
 // ## 03 - Filter Numbers
 
-// - Créez une variable `array` contenant un tableau qui contiendra les valeurs `1`, `"toto"`, `34`, `"javascript"` et `8`
-// - Créez une variable `numbers` qui appellera la méthode `.filter()` pour contenir les **nombres** de `array`
-// - Affichez le tableau `numbers` qui doit contenir que des nombres
+
+// const array = [1, "toto", 34, "javascript",8]
+
+// const numbers = array.filter((elem) => {
+
+//     console.log(typeof elem)
+
+//         return typeof elem === "number"
+
+
+
+
+// })
+
+// console.log(numbers)
+
+
 
 // ## 04 - Filter Even
 
