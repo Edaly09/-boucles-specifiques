@@ -70,10 +70,17 @@
 const cakes = [{name: "cake",flavor: "vanilla",status: "available"},{name: "brownie",flavor: "chocolate",status: "available"},{name: "pie",flavor: "strawberry",status: "available"},{name: "muffin",flavor: "pistachio",status: "available"},{name: "donut",flavor: "chocolate",status: "available"},]
 
 
-const cakeChocolate = cakes.filter((cake) =>{
+const cakeShort = cakes.filter((cake) =>{
 
+
+    return cake.flavor  === "chocolate" 
+ 
     
 })
+
+console.log(cakeShort)
+
+
 // - À l'aide des méthodes `.filter()` et `.map()`, vous donnerez le statut "sold out !" aux gâteaux au chocolat
 // - Ces deux gâteaux doivent être stockés dans une nouvelle variable, affichez-la dans la console
 
